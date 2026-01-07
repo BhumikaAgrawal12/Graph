@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class TopoSort_DFS{
     public ArrayList<Integer> TopoSort_DFS(int V, int[][] edges) {
         // code here
         boolean visited[]=new boolean[V];

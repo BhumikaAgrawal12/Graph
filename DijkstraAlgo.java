@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class DijkstraAlgo {
     public int[] DijkstraAlgo(int V, int[][] edges, int src) {
         // code here
         int[] dist=new int[V];

@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Prims {
     public int PrimsAlgoMST(int V, int[][] edges) {
         // code here
         List<List<int[]>>adj=new ArrayList<>();

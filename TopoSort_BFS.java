@@ -1,6 +1,6 @@
  // USING (BFS+INDEGREE ARRAY)--->KAHN'S ALGO
 import java.util.*;
-class Solution {
+class TopoSort_BFS{
     public ArrayList<Integer> TopoSort_BFS(int V, int[][] edges) {
        
        ArrayList<Integer>ans=new ArrayList<>();

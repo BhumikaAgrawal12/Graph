@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class BellmanFord {
     public int[] BellmanFord(int V, int[][] edges, int src) {
         // code here
         int[] dist=new int[V];
